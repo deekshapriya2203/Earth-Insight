@@ -1,0 +1,128 @@
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  /* padding: 2rem;*/
+}
+
+.community-card {
+  background-color: #f2fff3;
+  border: 2px solid #b9e7c9;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
+}
+
+.community-card:hover {
+  transform: translateY(-4px);
+}
+
+.community-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.community-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.community-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.community-card button:hover {
+  background-color: #388e3c;
+}
+
+/* Discussion Panel */
+.discussion-tab {
+  padding: 0rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.discussion-box {
+  background-color: #f8fff9;
+  border: 1px solid #cfe9d6;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.comment-box {
+  width: 100%;
+  min-height: 5px;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.post-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.preview-container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 12px;
+  border: 2px solid #d0e6d6;
+}
+.discussion-box {
+  background: #f3f4f6;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.post-item {
+  background: #fff;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.post-image {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.post-caption {
+  font-size: 1rem;
+  color: #333;
+}
+.profile-image-large {
+  width: 100px;
+  height:100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #4caf50;
+}

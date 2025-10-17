@@ -1,0 +1,1 @@
+export default () => <div>🔬 Analyzer Tab Content</div>;
